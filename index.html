@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="index-color.css">
+</head>
+<body>
+    
+ <div id="container">
+
+    <header>
+        <div class="left">
+             <img src="logo-story.png" alt="logo" style="width: 50%; height: auto; border-radius: 30%;"/>
+             <h2>Stories for children</h2>
+            </div>
+
+
+        <div class="serch">
+             <label for="serch">&#128269;Serch</label>
+             <input type="text" id="serch" name="serch" placeholder="ابحث عن قصة"/>
+            </div>
+
+        <div class="right">
+            <label for="Loga in">&#128100;Loga in</label>
+            <input type="text" id="Loga in" name="Loga in" placeholder="أكتب ايميلك"/>
+            <label for="password">&#128274;Password</label>
+            <input type="text" id="password" name="Password" placeholder="123456"/>
+            </div>
+    </header>
+
+    <nav>
+     <a href="Home">&#127968; Home/ الرأيسة</a>
+     <a href="contact us">&#128231; Contact us/ تواصل معنا</a>
+     <a href="Home">&#127916; Stories/ قصص</a>
+     <br/>
+     <a href="Home">&#127918; Games/ العاب</a>
+     <a href="Home">&#128214; Books/ كتب</a>
+     <a href="#">&#128250; Live قنوات بث مباشر</a>
+    </nav>
+
+     <main>
+
+     <div class="aside">
+        <h2>Stories/ قصص</h2>
+        <a href="#">&#127916;Stories | قصص</a>
+        <a href="#"> &#128512;Play and learn |العب وتعلم</a></li> <br/>
+        <a href="#">&#9836;Songs |اناشيد</a>
+        
+
+        <h2>Books/ كتب </h2>
+        <a href="#"> &#128214;Read the story |اقراء قصة</a></li>
+        
+
+        <h2>Games/ العاب</h2>
+        <a href="#">&#127918; Games/ العاب</a>
+        
+
+        <h2>Live بث </h2>
+        <a href="#">&#128250; Live قنوات بث مباشر</a>
+        
+      </div>
+
+        <div class="play">
+        <div class="bord">
+            <button onclick="color(this, 'red', 'red')">red </br> احمر</button>
+            <button onclick="color(this, 'yellow', 'yellow')">yellow </br> اصفر</button>
+            <button onclick="color(this, 'green', 'green')">green </br> اخضر</button>
+            <button onclick="color(this, 'orange', 'orange')">orenge </br> برتقالي</button>
+            <button onclick="color(this, 'pink', 'pink')">pink </br> وردي</button>
+         </br>
+            <button onclick="color(this, 'blue', 'blue')">blue </br> ازرق</button>
+            <button onclick="color(this, 'purple', 'purple')">purple </br> بنفسجي</button>
+            <button onclick="color(this, 'black', 'black')">black </br> اسود</button>
+            <button onclick="color(this, 'white', 'white')">white </br> ابيض</button>
+            <button onclick="color(this, 'brown', 'brown')">brown </br> بني</button>
+        </div>
+         <button id="reset-btn" onclick="reset()">Reset/ اعادة</button>
+    </div>
+
+
+      
+    </main>
+
+    <footer>
+
+         <div class="support us">
+         <a href="#">&#128184; Support us/ تبرع لدعمنا</a>
+         </div>
+
+            <div class="footer-info">
+            <p>&copy; All rights reserved <br/>
+            Stories for children/ قصص للأطفال
+            </p>
+            </div>
+
+         <div class="footer-contact">
+         <a href="#">&#128231; Contact us/ تواصل معنا</a>
+         <a href="https://www.youtube.com/channel/UCTdW7tm4uDTT7Smvbvob2UQ">&#127916; YouTube Channel</a>
+        </div>
+
+
+    </footer>
+
+
+ </div>
+
+
+    <script src="color.js"></script>
+
+    <audio id="green" src="sund/green-sund.mp3"></audio>
+   <audio id="red" src="sund/red-sund.mp3"></audio>
+   <audio id="blue" src="sund/blue-sund.mp3"></audio>
+   <audio id="yellow" src="sund/yellow-sund.mp3"></audio>
+   <audio id="orange" src="sund/orange-sund.mp3"></audio>
+   <audio id="purple" src="sund/purple-sund.mp3" ></audio>
+   <audio id="black" src="sund/black-sund.mp3"></audio>
+   <audio id="white" src="sund/white-sund.mp3"></audio>
+   <audio id="brown" src="sund/brown-sund.mp3"></audio>
+   <audio id="pink" src="sund/pink-sund.mp3"></audio>
+</body>
+</html>
